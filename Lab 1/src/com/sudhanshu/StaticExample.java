@@ -2,7 +2,7 @@ package com.sudhanshu;
 
 public class StaticExample {
     static class CounterStatic{
-        static int count = 0;
+        static int count = 4;
         void Counter1(){
             count++;
             System.out.println(count);
