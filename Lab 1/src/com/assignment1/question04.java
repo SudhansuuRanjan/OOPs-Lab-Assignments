@@ -12,11 +12,14 @@ public class question04 {
         int b = in.nextInt();
         int hcf = 0 , lcm = a > b ? a : b;
 
-        for (int i = 1; i <= a || i <= b ; i++) {
-             if( a % i == 0 && b % i == 0){
-                 hcf = i ;
-             }
+        int i = 1;
+        while( i <= a || i <= b ){
+            if( a % i == 0 && b % i == 0){
+                hcf = i ;
+            }
+            i++;
         }
+
         System.out.println("\nHCF is : " + hcf);
 
         while(true){
