@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class question1b {
     public static void main(String[] args) {
-
+        System.out.print("Enter the number of line you want to print : ");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 

@@ -8,8 +8,10 @@ public class question2 {
         System.out.print("Enter the value of n to find sum : ");
         int n = in.nextInt();
         double sum = 0.0;
+        long mul = 1;
         for (int i = 1 ; i <= n; i++) {
-            sum += (double) i / fact(i);
+            mul *= i;
+            sum += (double) i / mul;
             System.out.print( i + "/"+  i + "!");
             if(i < n){
                 System.out.print(" + ");
@@ -18,14 +20,5 @@ public class question2 {
             }
         }
         System.out.println(sum);
-
-    }
-
-    private static long fact(int i) {
-       if(i >= 1){
-           return fact(i-1)*i;
-       }else{
-           return 1;
-       }
     }
 }

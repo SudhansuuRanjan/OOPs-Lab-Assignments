@@ -31,6 +31,14 @@ public class question5 {
             System.out.print("\n");
         }
 
+        System.out.println("Differecne of Matrices : ");
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(arr1[i][j] - arr2[i][j] + " ");
+            }
+            System.out.print("\n");
+        }
+
         System.out.println("Product of Matrices : ");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
