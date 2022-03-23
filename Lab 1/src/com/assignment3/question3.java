@@ -5,19 +5,22 @@ public class question3 {
         int ID;
         String name;
         int mark;
+        Boolean initByDefaultConstructor = true;
 
         Student(){
             System.out.println("Unknown");
+            initByDefaultConstructor = true;
         }
 
         Student(int ID , String name , int mark){
             this.ID = ID;
             this.name = name;
             this.mark = mark;
+            initByDefaultConstructor = false;
         }
 
         void display(){
-            if(name == null && mark == 0 && ID == 0){
+            if(initByDefaultConstructor){
                 System.out.println("\nID : " + "Unknown" + "\nname : " + "Unknown" + "\nmarks : " + "Unknown" );
                 return ;
             }
