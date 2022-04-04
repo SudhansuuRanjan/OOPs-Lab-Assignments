@@ -1,4 +1,4 @@
-package com.assignment5;
+package com.lab5;
 
 public class question4 {
     public static class Addition
