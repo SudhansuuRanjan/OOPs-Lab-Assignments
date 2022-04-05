@@ -8,7 +8,7 @@ public class question4 {
         void message() {
             System.out.println("This is first Subclass.");
         }
-    }
+    }''
     static class Subclass2 extends Parent{
         void message() {
             System.out.println("This is second Subclass.");
