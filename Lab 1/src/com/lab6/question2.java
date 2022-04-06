@@ -1,23 +1,23 @@
 package com.lab6;
 
-public class question2 {
-    static class Student{
-        String name;
-        final int rollno;
-        static int SerialNo = 0;
+class Student{
+    String name;
+    final int rollno;
+    static int SerialNo = 0;
 
-        Student(int rollno , String name) {
-            this.rollno = rollno;
-            this.name = name;
-            SerialNo++;
-            this.getInfo();
-        }
-
-        void getInfo(){
-            System.out.println("Serial no. : "+ SerialNo +"\nName : "+ name + "\nRoll no : " + rollno +"\n");
-        }
+    Student(int rollno , String name) {
+        this.rollno = rollno;
+        this.name = name;
+        SerialNo++;
+        this.getInfo();
     }
 
+    void getInfo(){
+        System.out.println("Serial no. : "+ SerialNo +"\nName : "+ name + "\nRoll no : " + rollno +"\n");
+    }
+}
+
+public class question2 {
     public static void main(String[] args) {
         Student s1 = new Student(2002001 , "Aarushi");
         Student s2 = new Student(2002002 , "Diwakar");
