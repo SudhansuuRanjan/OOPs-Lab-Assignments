@@ -96,3 +96,26 @@ public class question2 {
         c2.mvU();
     }
 }
+
+//Output
+//
+//
+//        Company Name : TCS Co.
+//        Company Type : Technology
+//        No of employees : 10
+//        Owner : Suyel
+//        Address : NITP CAMPUS
+//        Moved : Down
+//        Moved : Left
+//        Moved : Right
+//        Moved : Up
+//
+//        Company Name : TATA Co.
+//        Company Type : Multi Tech
+//        No of employees : 12
+//        Owner : Suyel
+//        Address : NITP CAMPUS
+//        Moved : Down
+//        Moved : Left
+//        Moved : Right
+//        Moved : Up

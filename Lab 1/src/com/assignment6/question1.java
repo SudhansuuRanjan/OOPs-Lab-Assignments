@@ -28,3 +28,8 @@ public class question1{
         t1.receive_message();
     }
 }
+
+
+//        Message Created !
+//        Message Sent !
+//        Message Received : Hello There !!
