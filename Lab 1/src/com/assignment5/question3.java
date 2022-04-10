@@ -7,7 +7,7 @@ class Car {
 }
 class Buggati extends Car{
     public void Info() {
-        System.out.println("Buggati is one of the fastest car manufactures.");
+        System.out.println("Buggati is one   of the fastest car manufactures.");
     }
 }
 class Veron extends Buggati {
