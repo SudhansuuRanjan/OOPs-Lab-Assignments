@@ -11,6 +11,7 @@ public class question3 {
             System.out.println("Invalid\n");
         }
 
+
         try{
             int x = 6;
             String s = "Hello";
