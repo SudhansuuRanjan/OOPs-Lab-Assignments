@@ -1,5 +1,7 @@
 package com.assignment6;
 
+import java.util.Scanner;
+
 interface Message{
     void create_message(String message);
     void send_message();
@@ -22,8 +24,11 @@ class Text_message implements Message{
 
 public class question1{
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         Text_message t1 = new Text_message();
-        t1.create_message("Hello There !!");
+        System.out.print("Enter Your Message : ");
+        String msg = in.nextLine();
+        t1.create_message(msg);
         t1.send_message();
         t1.receive_message();
     }
